@@ -1009,6 +1009,7 @@ nav.open .links {
     text-align: center;
     padding-bottom: 25px;
     color: #7b7b7b;
+    z-index: 2;
 }
 
 .footer ul {
