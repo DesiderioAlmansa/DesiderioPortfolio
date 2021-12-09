@@ -1006,6 +1006,8 @@ nav.open .links {
 }
 
 .footer .social {
+    position: absolute;
+    z-index: 1;
     text-align: center;
     padding-bottom: 25px;
     color: #7b7b7b;
