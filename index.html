@@ -7,7 +7,6 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/css/styles.css">
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
         />
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
@@ -22,7 +21,9 @@
             <nav class="fixed">
                 <div class="container">
                     <div class="logo">
-                        <img src="assets/img/logo5.png" alt="">
+                        <a href="#inicio">
+                            <img src="assets/img/logo5.png" alt="">
+                        </a>
                     </div>
                     <div class="hamburger-menu">
                         <div class="bar"></div>
@@ -459,7 +460,7 @@
                         </div>
                     </div>
                     <div class="more-folio">
-                        <a href="https://github.com/DesiderioAlmansa" target="_blank" class="btn">Mi repositorio</a>
+                        <a target="_blank" rel="noopener" href="https://github.com/DesiderioAlmansa" class="btn">Mi repositorio</a>
                     </div>
 
                 </div>
@@ -522,46 +523,37 @@
             <!--End Contacto-->
         </main>
         <!--===== FOOTER =====-->
-        <footer class="footer">
+        <footer class="site-footer">
             <div class="container">
-                <div class="social">
-                    <div class="social-media">
+                <div class="row">
+                    <div>
+                        <ul class="social-icons">
+                            <li><a class="github" target="_blank" rel="noopener" href="https://github.com/DesiderioAlmansa"><i class="uil uil-github-alt"></i></a></li>
+                            <li><a class="linkedin" target="_blank" rel="noopener" href="https://github.com/DesiderioAlmansa"><i class="uil uil-linkedin-alt"></i></a></li>
 
-                        <a href="https://github.com/DesiderioAlmansa/" target="_blank">
-                            <i class="uil uil-github-alt"></i>
-                        </a>
-
-                        <a href="https://www.linkedin.com/in/desiderio-almansa-porrero-3923a7225/" target="_blank">
-                            <i class="uil uil-linkedin-alt"></i>
-                        </a>
-
-
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="footer-links">
+                            <li><a href="#inicio">Inicio</a></li>
+                            <li><a href="#sobreMi">Sobre mí</a></li>
+                            <li><a href="#formacion">Formación</a></li>
+                            <li><a href="#competencias">Competencias</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
+                        </ul>
                     </div>
                 </div>
+                <hr>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by Desiderio Almansa Porrero.
+                        </p>
+                    </div>
 
-                <ul class="list">
-                    <li>
-                        <a href="#inicio">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="#sobreMi">Sobre mí</a>
-                    </li>
-                    <li>
-                        <a href="#formacion">Formación</a>
-                    </li>
-                    <li>
-                        <a href="#competencias">Competencias</a>
-                    </li>
-                    <li>
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#contacto">Contacto</a>
-                    </li>
-                </ul>
-                <p class="copyright">
-                    Copyright©2021 All rights reserved | Made by Desiderio Almansa Porrero
-                </p>
+                </div>
             </div>
         </footer>
         <!--End Footer-->
