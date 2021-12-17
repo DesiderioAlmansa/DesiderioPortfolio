@@ -1620,6 +1620,9 @@ nav.open .links {
         padding: 0.8rem 1.4rem;
         margin: 0.25rem 0;
     }
+    .contact i {
+        font-size: 1em;
+    }
 }
 
 
