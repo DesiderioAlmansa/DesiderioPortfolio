@@ -1332,8 +1332,8 @@ nav.open .links {
         margin: 1.1rem 0;
     }
     .card {
-        min-height: 18ch;
-        max-width: 20ch;
+        min-height: 16ch;
+        max-width: 12.5ch;
         padding: 2.2rem 1.5rem;
     }
     .icon {
